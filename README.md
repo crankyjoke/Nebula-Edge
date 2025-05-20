@@ -58,4 +58,3 @@ curl -X POST -d '{"name":"double","arg":21}' http://localhost:8081/exec
 
 Prometheus metrics exposed at `http://localhost:8080/metrics`.
 
-> **NOTE**: This is an MVP. Signature verification, persistent storage, robust gossip integration, and error handling are simplified for clarity.
