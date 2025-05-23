@@ -20,8 +20,6 @@ It lets you **deploy and execute Wasm modules on the edge** without central coor
 - [CLI (`nebctl`)](#cli-nebctl)
 - [Sample Modules](#sample-modules)
 - [Metrics](#metrics)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -137,19 +135,8 @@ Key series:
 - `nebula_edge_exec_duration_seconds` – latency histogram
 - `nebula_edge_peers` – current peer count
 
-## Roadmap
-- [ ] Persistent store plugin (BoltDB, Redis)
-- [ ] TLS & mTLS support
-- [ ] Web UI dashboard
-- [ ] Container images
-- [ ] Remote attestation (Sigstore)
 
-## Contributing
-1. Create an issue or pick one tagged **good first issue**.
-2. Fork & create a feature branch:  
-   `git checkout -b feat/my-awesome-change`
-3. Commit with conventional commits (`feat: ...`, `fix: ...`).
-4. Submit a PR – GitHub Actions will run `go vet`, `golangci‑lint`, and tests.
+
 
 All contributions require passing tests and lints.
 
